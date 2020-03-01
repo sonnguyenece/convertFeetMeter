@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<div>
+    <table width="1000px" border="1px" style="border-collapse: collapse; border-color: black;table-layout: fixed">
+        <tr>
+            <th>Feet</th>
+            <th>Meter</th>
+            <th>Meter</th>
+            <th>Feet</th>
+        </tr>
+
+        <tr>
+            <td><input type="number" id="feet" placeholder="Input feet value" oninput="displayMeter(this.value)"></td>
+            <td id="ft-m"></td>
+            <td><input type="number" id="meter" placeholder="Input meter value" oninput="displayFeet(this.value)"></td>
+            <td id="m-ft"></td>
+        </tr>
+    </table>
+
+</div>
+<script src="function.js"></script>
+</body>
+</html>
